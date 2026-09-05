@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Fakenamely</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="icons/icon32.png" alt="" width="20" height="20" />
+      <strong>Fakenamely</strong>
+      <span class="tag">fictional · for testing</span>
+    </div>
+    <label class="country">
+      <span>Country</span>
+      <select id="country"></select>
+    </label>
+  </header>
+
+  <div class="actions">
+    <button id="fill" class="primary" type="button">Fill this form</button>
+    <button id="new" type="button">New identity</button>
+    <button id="copy-json" type="button" title="Copy the whole identity as JSON">JSON</button>
+  </div>
+  <p id="status" class="status" role="status"></p>
+
+  <dl id="fields" class="fields"></dl>
+
+  <footer>
+    Every value is fictional: the phone is in the reserved 555-01XX range, the email domain accepts no mail, the address points to no real home.
+    <a href="https://fakenamely.com/api" target="_blank" rel="noopener">API</a> ·
+    <a href="https://fakenamely.com/methodology" target="_blank" rel="noopener">How it is generated</a> ·
+    <a href="https://github.com/vinceblock99/fakenamely-chrome-extension/blob/main/PRIVACY.md" target="_blank" rel="noopener">Privacy</a>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
