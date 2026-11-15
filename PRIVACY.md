@@ -16,8 +16,9 @@ else. Uninstalling the extension removes it.
 "Fill this form", through Chrome's `activeTab` permission, and only at that moment. It never
 runs in the background and never reads pages you do not act on.
 
-**The data is fictional.** Phone numbers come from the 555-0100…0199 range that the North American
-Numbering Plan reserves for fiction; email addresses use example.com/.net/.org, which publish a
+**The data is fictional.** US and Canadian phone numbers come from the 555-0100…0199 range that the
+North American Numbering Plan reserves for fiction, and UK numbers from Ofcom's drama ranges; other
+countries get a random number in the local format, which should never be dialled; email addresses use example.com/.net/.org, which publish a
 null MX record and cannot receive mail; streets are invented. None of it describes a real person.
 Use it for testing, demos and privacy on forms that do not need your real details — never for
 fraud, impersonation or anything that requires a real identity.

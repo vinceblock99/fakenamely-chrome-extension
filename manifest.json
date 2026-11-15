@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Fakenamely – Fictional Identity Form Filler",
   "version": "1.0.0",
-  "description": "Fill test forms with a fictional identity: a name, an address with a real postal code, a 555 phone number and an example.com email.",
+  "description": "Fill test forms with a fictional identity: a name, an address with a real postal code, a test phone number and an example.com email.",
   "homepage_url": "https://fakenamely.com",
   "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["https://fakenamely.com/*"],

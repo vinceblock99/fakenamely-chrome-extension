@@ -1,6 +1,7 @@
 // Fakenamely form filler — popup logic. No build step, no dependencies.
 // Data comes from the free Fakenamely API; the identity is fictional by
-// construction (reserved phone range, RFC 2606 email domain, invented street).
+// construction (reserved phone ranges in the US, Canada and UK, RFC 2606 email
+// domain, invented street).
 
 const API = "https://fakenamely.com/api/v1/identity";
 

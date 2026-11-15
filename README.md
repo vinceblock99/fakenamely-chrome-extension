@@ -1,6 +1,6 @@
 # Fakenamely – Fictional Identity Form Filler (Chrome extension)
 
-Fill sign-up, checkout and account forms with a **fictional** identity in one click: a name, a street address whose city, state and postal code agree (real postal codes, 38 countries), a phone number from the reserved 555-01XX range, an example.com email that can never receive mail, a birthday, a username and a password.
+Fill sign-up, checkout and account forms with a **fictional** identity in one click: a name, a street address whose city, state and postal code agree (real postal codes, 38 countries), a test phone number (the reserved 555-01XX range in the US and Canada, Ofcom's drama ranges in the UK), an example.com email that can never receive mail, a birthday, a username and a password.
 
 Built for QA engineers, developers and designers who fill the same test form fifty times a day, and for anyone who would rather not hand a real address to a site that only needs a plausible one.
 
@@ -16,7 +16,7 @@ Nothing runs in the background. The page is touched only on the tab where you pr
 
 ## Why the data is safe to type into a real form
 
-- **Phone**: 555-0100 to 555-0199, the block the North American Numbering Plan reserves for fiction; it cannot ring anyone.
+- **Phone**: in the US and Canada, 555-0100 to 555-0199, the block the North American Numbering Plan reserves for fiction; in the UK, Ofcom's drama ranges. Other countries get a random number in the local format, which may belong to someone: never dial it.
 - **Email**: example.com, example.net or example.org (RFC 2606), which publish a null MX record (RFC 7505) — a conforming mail server does not even attempt delivery.
 - **Address**: a real city, state and postal code that agree with each other, with an invented street and house number; it points to no home.
 - **Everything else** (names, birthday, username, password) is generated; the SSN-style field is masked and never a real number.
