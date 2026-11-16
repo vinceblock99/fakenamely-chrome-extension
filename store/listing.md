@@ -1,15 +1,15 @@
 # Chrome Web Store listing copy
 
-**Name (≤ 75 chars):** Fakenamely – Fictional Identity Form Filler
+**Name (≤ 75 chars):** Fake Name & Address Generator – Form Filler | Fakenamely
 
 **Short description (≤ 132 chars):**
-Fill test forms in one click with a fictional identity: an address with a real postal code, a test phone and an example.com email.
+Fake name and address generator that fills forms in one click: name, address with a real postal code, test phone, example.com email.
 
 **Category:** Developer Tools · **Language:** English
 
 **Detailed description:**
 
-Fill sign-up, checkout and account forms with a fictional identity in one click.
+A fake name and address generator that fills sign-up, checkout and account forms in one click.
 
 Every value is fictional by construction, not by luck:
 • US and Canadian phone numbers come from 555-0100…0199, the range the North American Numbering Plan reserves for fiction. UK numbers come from Ofcom's drama ranges. Other countries get a random number in the local format: fine for a form, never to be dialled.

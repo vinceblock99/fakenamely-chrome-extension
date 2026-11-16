@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Fakenamely – Fictional Identity Form Filler",
+  "name": "Fake Name & Address Generator – Form Filler | Fakenamely",
   "version": "1.0.0",
-  "description": "Fill test forms with a fictional identity: a name, an address with a real postal code, a test phone number and an example.com email.",
+  "description": "Fake name and address generator that fills forms in one click: name, address with a real postal code, test phone, example.com email.",
   "homepage_url": "https://fakenamely.com",
   "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["https://fakenamely.com/*"],
   "action": {
-    "default_title": "Fakenamely: fictional identity for this form",
+    "default_title": "Fakenamely: fill this form with a fake name and address",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",

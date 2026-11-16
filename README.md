@@ -1,4 +1,4 @@
-# Fakenamely – Fictional Identity Form Filler (Chrome extension)
+# Fake Name & Address Generator – Form Filler | Fakenamely (Chrome extension)
 
 Fill sign-up, checkout and account forms with a **fictional** identity in one click: a name, a street address whose city, state and postal code agree (real postal codes, 38 countries), a test phone number (the reserved 555-01XX range in the US and Canada, Ofcom's drama ranges in the UK), an example.com email that can never receive mail, a birthday, a username and a password.
 
