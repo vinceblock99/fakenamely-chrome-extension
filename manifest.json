@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Fake Name & Address Generator – Form Filler | Fakenamely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fake name and address generator that fills forms in one click: name, address with a real postal code, test phone, example.com email.",
   "homepage_url": "https://fakenamely.com",
   "permissions": ["activeTab", "scripting", "storage"],
